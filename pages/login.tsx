@@ -22,7 +22,6 @@ export default function Login() {
       <main className={`${notoSans.className} ${style.main}`}>
         <Title>Login</Title>
         <Form />
-        <p>{themeColor}</p>
       </main>
     </>
   )
