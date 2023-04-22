@@ -26,7 +26,7 @@ export const error = createAsyncThunk(
         return
       }
       // 折り返し地点に来た時数値を反転する
-      if (reverse === false && color < 0) {
+      if (reverse === false && color < 42) {
         reverse = true
         color = 0
       }
