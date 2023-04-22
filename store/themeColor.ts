@@ -5,7 +5,7 @@ export interface ThemeColorState {
 }
 
 export const initialState: ThemeColorState = {
-  color: '#FFFFFF',
+  color: '#EBEBEB',
 }
 
 // エラー時のテーマカラーアニメーション
@@ -17,11 +17,11 @@ export const error = createAsyncThunk(
 
     const velocity = 15 // 速度
 
-    let color = 255
+    let color = 235
     let reverse = false
     const animation = () => {
       // アニメーションの終了条件を満たした場合終了する
-      if (color > 255 && reverse === true) {
+      if (color > 235 && reverse === true) {
         thunkApi.dispatch(themeColorSlice.actions.resetColor())
         return
       }
@@ -33,7 +33,7 @@ export const error = createAsyncThunk(
 
       // 色を16進数にする
       const hex = color.toString(16).padStart(2, '0').toUpperCase()
-      thunkApi.dispatch(themeColorSlice.actions.changeColor(`#FF${hex}${hex}`))
+      thunkApi.dispatch(themeColorSlice.actions.changeColor(`#EB${hex}${hex}`))
 
       // 色を変更する
       color = reverse ? color + velocity : color - velocity
