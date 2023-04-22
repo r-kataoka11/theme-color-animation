@@ -12,5 +12,5 @@
   ],
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "typescript.preferences.importModuleSpecifier": "shortest",
-  "cSpell.words": ["reduxjs"]
+  "cSpell.words": ["clsx", "reduxjs"]
 }
