@@ -11,5 +11,6 @@
     "source.fixAll.eslint"
   ],
   "eslint.workingDirectories": [{ "mode": "auto" }],
-  "typescript.preferences.importModuleSpecifier": "shortest"
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "cSpell.words": ["reduxjs"]
 }
