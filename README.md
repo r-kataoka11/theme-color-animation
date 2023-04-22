@@ -1,3 +1,9 @@
+# theme-color をいじって警告する
+
+エラーになった時に theme-color をいじる。
+
+するとブラウザーのバーの色が変わって警告されるので、体験としては新しい。
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
